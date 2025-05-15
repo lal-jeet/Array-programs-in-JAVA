@@ -11,6 +11,7 @@ public class Add_the_last_and_first_element_of_a_given_array {
 			System.out.print(arr[i] + " ");
 		}
 		System.out.println();
+		
 		System.out.println("===========Add the last and first element of a given array.============");
 
 		int sum = arr[0] + arr[arr.length - 1];
@@ -31,7 +32,7 @@ public class Add_the_last_and_first_element_of_a_given_array {
 			if (size < 0) {
 				System.err.println("Error...Negative size");
 			} else {
-//				 Array Construction
+                  // Array Construction and validation
 				int arr[] = new int[size];
 
 				if (size == 0) {
