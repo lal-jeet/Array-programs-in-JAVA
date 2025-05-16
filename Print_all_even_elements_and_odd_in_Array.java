@@ -41,7 +41,7 @@ public class Print_all_even_elements_and_odd_in_Array {
 			if (size < 0) {
 				System.err.println("Error...Negative size");
 			} else {
-//				 Array Construction
+           //Array Construction
 				int arr[] = new int[size];
 
 				if (size == 0) {
